@@ -1,3 +1,48 @@
+/**Common CSS**/
+body, h1, h2, h3{
+    font-family: "lato";
+}
+h1, h2, h3{
+    color: #272727;
+    font-weight: 800;
+    margin-top: 0;
+}
+.primary_btn{
+    background-color: #E55473;
+    border: none;
+    padding: 20px 43px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: solid 1px #E55473;
+    transition: all .3s ease;
+}
+.primary_btn:hover{
+    background-color: transparent;
+    color: #E55473;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+}
+.cmn_txt{
+    font-size: 18px;
+    color: #272727;
+    font-weight: 400;
+    line-height: 30px;
+}
+.cmn_h h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+.cmn_h h2{
+    font-size: 40px;
+}
+button.primary_btn{
+    width: fit-content;
+}
+/**first Section**/
 body .first_section{
     background-color: rgba(229, 84, 115, 0.1);
     padding-top: 50px;
@@ -13,12 +58,45 @@ body .first_section{
     flex-direction: column;
     justify-content: center;
 }
-button.primary_btn{
-    width: fit-content;
+.first_section .first_right_col{
+    width: 48%;
+    margin-left: 97px;
 }
-.first_section .column{
-    width: 50%;
+.first_section .first_right_col img{
+    max-width: 635px;
 }
-/* .first_section .column.first_left_col{
-    max-width: 720px;
-} */
+.first_section .column.first_left_col{
+    width: 52%;
+}
+.first_section h1{
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.bnr_content{
+    max-width: 634px;
+    margin-bottom: 30px;
+}
+/**Our Featured Flowers Section**/
+.feat_flower_section .feat_flower_row1{
+    max-width: 594px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+.feat_flower_section h2,
+.feat_flower_section p{
+    text-align: center;
+}
+.feat_flower_section{
+    padding-top: 178px;
+    padding-bottom: 128px;
+}
+.feat_flower_section h2{
+    margin-bottom: 20px;
+}
+.feat_flower_section .feat_flower_row2{
+    display: flex;
+    justify-content: space-around;
+}
+.feat_flower_row2 .column .feat_img{
+    margin-bottom: 32px;
+}
