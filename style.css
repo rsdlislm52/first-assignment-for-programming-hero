@@ -1,4 +1,24 @@
 body .first_section{
     background-color: rgba(229, 84, 115, 0.1);
-    display: flex;
+    padding-top: 50px;
 }
+.first_section_row{
+    display: flex;
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button.primary_btn{
+    width: fit-content;
+}
+.first_section .column{
+    width: 50%;
+}
+/* .first_section .column.first_left_col{
+    max-width: 720px;
+} */
